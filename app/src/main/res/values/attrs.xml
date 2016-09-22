@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <declare-styleable name="RoundProgressBar">
+        <attr name="radius" format="dimension"></attr>
+        <attr name="roundColor" format="color" />
+        <attr name="roundProgressOneColor" format="color" />
+        <attr name="roundProgressTwoColor" format="color" />
+        <attr name="roundProgressThreeColor" format="color" />
+        <attr name="roundWidth" format="dimension"></attr>
+        <attr name="roundProgressOneWidth" format="dimension" />
+        <attr name="roundProgressTwoWidth" format="dimension" />
+        <attr name="roundProgressThreeWidth" format="dimension" />
+        <attr name="smallRoundWidth" format="dimension" />
+        <attr name="topTextColor" format="color" />
+        <attr name="bottomTextColor" format="color" />
+        <attr name="topTextSize" format="dimension" />
+        <attr name="bottomTextSize" format="dimension" />
+        <attr name="lineColor" format="color" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="max" format="integer"></attr>
+        <attr name="textIsDisplayable" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="CountDownProgress">
+
+        <!-- 默认圆实心的颜色 -->
+        <attr name="default_circle_solide_color" format="color"/>
+        <!-- 默认圆边框的颜色 -->
+        <attr name="default_circle_stroke_color" format="color"/>
+        <!-- 默认圆边框的宽度 -->
+        <attr name="default_circle_stroke_width" format="dimension"/>
+        <!-- 默认圆的半径 -->
+        <attr name="default_circle_radius" format="dimension"/>
+        <!-- 进度条的颜色 -->
+        <attr name="progress_color" format="color"/>
+        <!-- 进度条的宽度 -->
+        <attr name="progress_width" format="dimension"/>
+        <!-- 小圆的实心颜色 -->
+        <attr name="small_circle_solide_color" format="color"/>
+        <!-- 小圆的边框颜色 -->
+        <attr name="small_circle_stroke_color" format="color"/>
+        <!-- 小圆的边框宽度 -->
+        <attr name="small_circle_stroke_width" format="dimension"/>
+        <!-- 小圆的半径 -->
+        <attr name="small_circle_radius" format="dimension"/>
+        <!-- 文字的颜色 -->
+        <attr name="text_color" format="color"/>
+        <!-- 文字的字体大小 -->
+        <attr name="text_size" format="dimension"/>
+    </declare-styleable>
+</resources>

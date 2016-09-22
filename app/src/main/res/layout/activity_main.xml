@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Button" />
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp">
+
+        <com.miao.roundprogressbar.RoundProgressBar
+            android:id="@+id/roundProgressBar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button1"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"
+            android_custom:bottomTextColor="#000000"
+            android_custom:bottomTextSize="10dp"
+            android_custom:roundColor="#757575"
+            android_custom:roundProgressOneColor="#8a8a8a"
+            android_custom:roundProgressOneWidth="2dp"
+            android_custom:roundProgressThreeColor="#ffcb05"
+            android_custom:roundProgressThreeWidth="6dp"
+            android_custom:roundProgressTwoColor="#b0b0b0"
+            android_custom:roundProgressTwoWidth="3dp"
+            android_custom:roundWidth="1dp"
+            android_custom:smallRoundWidth="6dp"
+            android_custom:topTextColor="#000000"
+            android_custom:topTextSize="60dp" />
+
+        <View
+            android:layout_width="120dp"
+            android:layout_height="1px"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="#000000">
+
+        </View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="目标: 70KM" />
+    </FrameLayout>
+
+    <com.miao.roundprogressbar.CountDownProgress
+        android:id="@+id/countdownProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fl"
+        android:layout_centerInParent="true"
+        android:padding="20dp" />
+    <!--<RelativeLayout-->
+    <!--android:layout_width="400dp"-->
+    <!--android:layout_height="400dp"-->
+    <!--android:layout_below="@id/fl"-->
+    <!--android:background="@android:color/darker_gray">-->
+
+    <!--<com.zihao.ui.proggress.CircleProgressBar-->
+    <!--android:id="@+id/myProgress"-->
+    <!--android:layout_width="400dp"-->
+    <!--android:layout_height="400dp"-->
+    <!--android:layout_centerInParent="true" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/circle_point_img"-->
+    <!--android:layout_width="400dp"-->
+    <!--android:layout_height="400dp"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:background="@android:drawable/ic_popup_sync" />-->
+
+    <!--</RelativeLayout>-->
+</RelativeLayout>
